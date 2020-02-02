@@ -1,0 +1,236 @@
+
+/* cosas */
+
+.logo {
+  font-family: 'Noto Serif SC', serif;/*"Arial Black", Gadget, sans-serif;*/
+  font-size: 300%;
+  text-align: left;
+  color: #40E0D0; //medical turquoise
+}
+
+.sub-logo {
+  font-family: 'Noto Serif SC', serif;
+  text-align: left;
+  color: #40E0D0; //medical turquoise
+}
+
+h1.title {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h2.miniTitle {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+}
+
+h3.aware {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 500%;
+  text-align: center;
+}
+
+.stripe-container {
+  background-color: #40E0D0; //medical turquoise
+  color:#111;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.stripe {
+  padding: 2%;
+  background-color: #40E0D0; //medical turquoise
+}
+
+.bottom-container {
+  background-color: #fff;
+  color: #111;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.bottom {
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #111;
+  font-size: 200%;
+  margin: 3%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: #1B2631; /*dark gray*/
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  background-color: #1B2631; /*dark gray*/
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-decoration: none;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.testimonial {
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #40E0D0; //medical turquoise
+  color: #111;
+  width: 70%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin: auto;
+  justify-content: center;
+  opacity: .7;
+}
+
+.treatment p {
+  text-align: left;
+  text-indent: 7%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  height: 100%;
+  margin: auto;
+  width: 80%;
+  font-size: 150%;
+}
+
+.intro-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.intro {
+  width: 100%;
+}
+
+.intro h1{
+  text-align: left;
+  margin-left: 10%;
+}
+
+.intro li {
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 150%;
+}
+
+.front-image {
+  /*display: flex;*/
+  width: 100%;
+  height: 100%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+
+p.conclude {
+  font-family: 'Noto Serif SC', serif;
+  color: #1B2631; /*dark gray*/
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 120%;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  .symp-words-cont {
+    margin-left: 5%;
+    display: flex;
+    float: right;
+  }
+
+  .symptoms {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: left;
+    color: #111;
+  }
+
+  .symptoms p {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 110%;
+    text-indent: 7%;
+    margin: 5%;
+  }
+
+  .symptoms-pics {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+  .symptoms-pics img{
+    width: 100%;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 601px) {
+
+  .symp-words-cont {
+    display: flex;
+    width: 50%;
+  }
+
+  .symptoms {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 150%;
+    text-align: left;
+    color: #111;
+  }
+
+  .symptoms p {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 75%;
+    text-indent: 7%;
+  }
+
+  .pics-container {
+    float: left;
+    width: 50%;
+    display: flex;
+  }
+
+  .symptoms-pics {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr;
+    grid-row-gap: 10px;
+  }
+
+  .symptoms-pics img {
+    width: 80%;
+  }
+
+  .symptoms-container {
+    display: flex;
+    color: #111;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+  }
+}
